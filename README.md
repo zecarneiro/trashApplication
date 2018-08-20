@@ -1,1 +1,1 @@
-trashApplication
+trash_app
