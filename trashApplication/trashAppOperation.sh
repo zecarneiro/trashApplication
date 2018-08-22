@@ -77,16 +77,16 @@ generateLang(){
 
 	if [ "$setLabel" = "-s" ]; then
 		# Replace name ok label and cancel label for question dialog
-		sed -i "s#%OKLABEL%#$okLabel#g" "$operationFile"
-		sed -i "s#%CANCELLABEL%#$cancelLabel#g" "$operationFile"
+		sudo sed -i "s#%OKLABEL%#$okLabel#g" "$operationFile"
+		sudo sed -i "s#%CANCELLABEL%#$cancelLabel#g" "$operationFile"
 
 		# Empty
-		sed -i "s#%TITLEEMPTY%#$titleEmpty#g" "$operationFile"
-		sed -i "s#%TEXTEMPTY%#$textEmpty#g" "$operationFile"
+		sudo sed -i "s#%TITLEEMPTY%#$titleEmpty#g" "$operationFile"
+		sudo sed -i "s#%TEXTEMPTY%#$textEmpty#g" "$operationFile"
 
 		# Uninstall
-		sed -i "s#%TITLEUNINSTALL%#$titleUninstall#g" "$operationFile"
-		sed -i "s#%TEXTUNINSTALL%#$textUninstall#g" "$operationFile"
+		sudo sed -i "s#%TITLEUNINSTALL%#$titleUninstall#g" "$operationFile"
+		sudo sed -i "s#%TEXTUNINSTALL%#$textUninstall#g" "$operationFile"
 	fi
 }
 
