@@ -12,7 +12,7 @@ declare operationBashFile="$appDir/trashAppOperation.sh"
 
 # Copy app
 sudo cp -r "$nameAppPath" /opt
-sudo chmod -R 777 "$appDir"
+sudo chmod -R 755 "$appDir"
 
 # Zenity
 eval "$functionsBashFile -i \"zenity trash-cli\""
