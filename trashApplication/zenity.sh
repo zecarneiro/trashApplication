@@ -176,7 +176,7 @@ function main(){
                 ;;
         esac
     else
-        eval "$cmd ${otherCmd[@]}"
+        eval "$cmd ${otherCmd[@]} 2> /dev/null"
     fi
 }
 main
