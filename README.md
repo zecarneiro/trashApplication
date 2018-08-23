@@ -7,9 +7,5 @@ wget https://codeload.github.com/zecarneiro/trashApplication/zip/v1.0 -O trashAp
 unzip -q trashApp.zip
 ```
 ```
-cd trashApplication-1.0 && chmod +x install.sh
-```
-
-```
-./install.sh
+cd trashApplication-1.0 && chmod +x install.sh && ./install.sh
 ```
