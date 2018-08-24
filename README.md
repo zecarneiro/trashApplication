@@ -1,7 +1,7 @@
 ## Install guide
 
 ```
-wget https://codeload.github.com/zecarneiro/trashApplication/zip/v1.0 -O trashApplication.zip
+wget https://github.com/zecarneiro/trashApplication/archive/v1.0.zip -O trashApplication.zip
 ```
 ```
 unzip -q trashApplication.zip
